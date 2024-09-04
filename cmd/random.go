@@ -38,7 +38,7 @@ func init() {
 }
 
 type Joke struct {
-	ID     int    `json:"id"`
+	ID     string    `json:"id"`
 	Joke   string `json:"joke"`
 	Status int    `json:"status"`
 }
